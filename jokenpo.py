@@ -4,7 +4,6 @@ import random
 print("Jogo Jokenpo!")
 
 opcoes = ["Pedra", "Papel", "Tesoura", "Martelo"]
-chances = 3
 
 for i in range(3):
     jogador = str(input("Escolha entre Pedra, Papel, Tesoura ou Martelo: ").capitalize())
